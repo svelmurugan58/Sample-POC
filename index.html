@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <title>Demo App</title>
+
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.css">
+
+    <!--Scripts-->
+    <script src="vendor/jquery-1.9.1.min.js"></script>
+    <script src="vendor/angular.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <script src="app/out.js"></script>
+
+</head>
+<body ng-controller="MainController">
+
+    <progressbar
+        click="vm.increaseProgress()"
+        message="{{vm.message}}"
+        progress="vm.progress"
+        ></progressbar>  
+      <progressbar
+        click="vm.increaseProgress()"
+        message="{{vm.message}}"
+        progress="vm.progress"
+        ></progressbar>
+
+</body>
+</html>
