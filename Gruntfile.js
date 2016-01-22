@@ -25,6 +25,7 @@ module.exports = function(grunt) {
                     livereload:true,
                     base:'.',
                     keepalive:true,
+                    open:true,
                     //key: grunt.file.read('server.key').toString(),
                     //cert: grunt.file.read('server.crt').toString(),
                     //ca: grunt.file.read('ca.crt').toString()
